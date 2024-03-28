@@ -11,12 +11,27 @@
     {
       "Path": "Main.xaml",
       "SortBy": 0,
-      "VariablesSectionElementsOrder": [],
+      "VariablesSectionElementsOrder": [
+        "QueueName&Sequence_3",
+        "dtTest&Sequence_1",
+        "QueueQuery&Sequence_1",
+        "EnvFolder&Sequence_1"
+      ],
       "ArgumentsSectionElementsOrder": [
+        "in_EmpNumber",
+        "in_Process",
+        "in_Applications",
         "in_IsEmail",
-        "in_IsBatch",
         "in_IsSandBox"
       ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "BatchUpload.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
     }
