@@ -2,7 +2,7 @@
   "name": "HI-BOB_Dispatcher",
   "projectId": "b5b97cfe-550b-423e-9aaf-9da215b0a176",
   "description": "Dispatcher for populating appropriate HI-BOB queues",
-  "main": "Main.xaml",
+  "main": "SingleUpload.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.23.2-preview]",
     "UiPath.Mail.Activities": "[1.22.1]",
@@ -49,8 +49,8 @@
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
-      "filePath": "Main.xaml",
-      "uniqueId": "94ff9587-86b5-47b7-99bc-6d5cde10f6ad",
+      "filePath": "SingleUpload.xaml",
+      "uniqueId": "0d084039-1500-48b0-a964-0d1188da991a",
       "input": [],
       "output": []
     }

@@ -18,18 +18,6 @@
       "DataSourceItems": null
     },
     {
-      "Name": "in_IsEmail",
-      "DisplayName": "in_IsEmail",
-      "Category": null,
-      "Tooltip": null,
-      "Placeholder": null,
-      "Widget": null,
-      "IsRequired": false,
-      "IsPrincipal": true,
-      "ArgumentType": 0,
-      "DataSourceItems": null
-    },
-    {
       "Name": "in_Applications",
       "DisplayName": "in_Applications",
       "Category": null,
