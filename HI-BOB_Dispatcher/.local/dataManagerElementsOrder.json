@@ -30,10 +30,15 @@
       "Path": "BatchUpload.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "QueueName&Sequence_20",
+        "QueueName&Sequence_1",
+        "EnvFolder&Sequence_1",
         "dtEmpNumbers&Sequence_1",
         "dtTest&Sequence_1"
       ],
       "ArgumentsSectionElementsOrder": [
+        "in_EmpNumber",
+        "in_Action",
         "in_Process",
         "in_Applications",
         "in_IsSandBox",
