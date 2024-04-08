@@ -54,6 +54,24 @@
       "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
+    },
+    {
+      "Path": "BatchWithWorkbookAct.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dtTest&Sequence_2",
+        "dtEmpNumbers&Sequence_2",
+        "EnvFolder&Sequence_2",
+        "QueueName&Sequence_2",
+        "QueueName&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "In_Process",
+        "in_IsSandBox",
+        "in_Applications"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
     }
   ]
 }
