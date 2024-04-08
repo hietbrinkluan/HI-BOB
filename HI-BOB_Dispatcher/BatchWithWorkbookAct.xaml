@@ -227,11 +227,11 @@
         <OutArgument x:TypeArguments="x:String">[FileExtention]</OutArgument>
       </Assign.To>
       <Assign.Value>
-        <InArgument x:TypeArguments="x:String">[DownName.GetType.ToString]</InArgument>
+        <InArgument x:TypeArguments="x:String">[DownName.GetExtension.ToString]</InArgument>
       </Assign.Value>
     </Assign>
     <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="545.6,182.4" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="[UiPath.Core.Activities.LogLevel.Info]" Message="[FileExtention]" />
-    <If Condition="[FileExtention = &quot;.xlsx&quot;]" sap:VirtualizedContainerService.HintSize="545.6,989.6" sap2010:WorkflowViewState.IdRef="If_2">
+    <If Condition="[FileExtention = &quot;xlsx&quot;]" sap:VirtualizedContainerService.HintSize="545.6,989.6" sap2010:WorkflowViewState.IdRef="If_2">
       <If.Then>
         <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,372" sap2010:WorkflowViewState.IdRef="Sequence_8">
           <sap:WorkflowViewStateService.ViewState>
