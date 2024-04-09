@@ -13,7 +13,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>860,2885.6</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>860,2690.4</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>BatchUpload_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -137,7 +137,7 @@
       <AssemblyReference>System.Linq.Async</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="BatchUpload" sap:VirtualizedContainerService.HintSize="697.6,2820.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="BatchUpload" sap:VirtualizedContainerService.HintSize="697.6,2625.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="dtTest" />
       <Variable x:TypeArguments="sd:DataTable" Name="dtEmpNumbers" />
@@ -251,7 +251,6 @@
         </ActivityAction>
       </ueab:ExcelProcessScopeX.Body>
     </ueab:ExcelProcessScopeX>
-    <ui:ReadCsvFile FilePath="{x:Null}" DataTable="[dtEmpNumbers]" Delimitator="Comma" DisplayName="Read CSV" sap:VirtualizedContainerService.HintSize="635.2,195.2" sap2010:WorkflowViewState.IdRef="ReadCsvFile_1" />
     <ParallelForEach x:TypeArguments="sd:DataRow" DisplayName="Parallel For Each" sap:VirtualizedContainerService.HintSize="635.2,599.2" sap2010:WorkflowViewState.IdRef="ParallelForEach`1_1" Values="[in_Applications.AsEnumerable]">
       <ActivityAction x:TypeArguments="sd:DataRow">
         <ActivityAction.Argument>
